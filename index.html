@@ -173,9 +173,9 @@
       filter: blur(0px);
     }
     .panel > *{position:relative}
-    .hero-left{padding: 26px 24px 22px;}
+    .hero-left{padding: 26px 24px 22px; text-align: center;}
     .kicker{
-      display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+      display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:center;
       margin-bottom: 12px;
     }
     h1{
@@ -186,11 +186,12 @@
     }
     @media (max-width: 480px){ h1{font-size: 36px;} }
     .sub{
-      margin: 0 0 16px;
+      margin: 0 auto 16px;
       color: var(--muted);
       font-size: 16.5px;
       line-height: 1.45;
-      max-width: 62ch;
+      max-width: 80ch;
+      text-align: center;
     }
     .sub strong{color: var(--text)}
     .callouts{
@@ -527,7 +528,7 @@
           <strong>Controle humano é obrigatório</strong>: nada é enviado sem sua revisão.
         </p>
 
-        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; justify-content:center;">
           <!-- Ajuste os links abaixo conforme sua realidade -->
           <a class="btn primary" href="#video">Assista ao Vídeo</a>
           <a class="btn ok" href="#instalacao">Instalar em 3 passos</a>
