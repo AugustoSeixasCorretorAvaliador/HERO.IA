@@ -133,6 +133,18 @@
       margin-top: 8px;
     }
     @media (max-width: 920px){ .hero{grid-template-columns: 1fr; } }
+
+    /* Responsivo topo/nav */
+    @media (max-width: 780px){
+      .wrap{padding: 20px 14px 70px;}
+      .nav{flex-direction: column; align-items: flex-start; gap: 10px; padding: 6px 0 14px;}
+      .brand{margin: 0;}
+      .logo{width: 220px;}
+      .nav .right{align-items: flex-start; width: 100%; gap: 6px;}
+      .nav-links{width: 100%; justify-content: flex-start; gap: 8px;}
+      .pill{font-size: 13px; padding: 8px 11px; box-shadow: 0 8px 18px rgba(2,6,23,.10);}
+      .btn.small{padding: 8px 11px;}
+    }
     .panel{
       border-radius: var(--r2);
       border: 1px solid var(--border);
